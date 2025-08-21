@@ -40,5 +40,6 @@ kubectl -n argocd rollout status deploy/argocd-application-controller
 
 ## Reference:
 - [Chatgpt 4o](https://chatgpt.com)
+- [stefanprodan/podinfo](https://github.com/stefanprodan/podinfo)
 - [NiniiGit](https://github.com/NiniiGit/argocd-demo)
 - [cloudyuga.guru](https://cloudyuga.guru/blogs/gitops-argocd-fluxcd/)
