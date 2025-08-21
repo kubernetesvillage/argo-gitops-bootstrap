@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/kubernetesvillage/podinfo.git
-    targetRevision: gitops       # Use a non-default branch like 'gitops'
+    targetRevision: gitops       # Use a non-default branch like 'gitops'.
     path: charts/podinfo
   syncPolicy:
     automated:
