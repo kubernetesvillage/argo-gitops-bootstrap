@@ -10,9 +10,10 @@ spec:
   project: default
   source:
     repoURL: https://github.com/kubernetesvillage/podinfo.git
-    targetRevision: HEAD
+    targetRevision: gitops       # Use a non-default branch like 'gitops'
     path: bootstrap
   syncPolicy:
     automated:
       prune: true
       selfHeal: true
+ 
